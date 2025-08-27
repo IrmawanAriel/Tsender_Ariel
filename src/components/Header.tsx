@@ -25,7 +25,7 @@ export default function Header() {
       {/* Right side: Github + Wallet Connect */}
       <div className="flex items-center gap-3 md:gap-4">
         <a
-          href="https://github.com/cyfrin/TSender"
+          href="https://github.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-zinc-600 transition-colors hidden sm:flex items-center justify-center"
