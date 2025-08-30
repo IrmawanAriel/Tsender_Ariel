@@ -1,9 +1,11 @@
-import { ConnectButton } from "@rainbow-me/rainbowkit";
+"use client"
+
+import dynamic from "next/dynamic"
+
+const HomeContent = dynamic(() => import("@/components/HomeContent"), {
+    ssr: false,
+})
 
 export default function Home() {
-  return (
-    <div >
-      
-    </div>
-  );
+    return <HomeContent />
 }
