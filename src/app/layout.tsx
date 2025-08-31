@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout(props: { children: ReactNode }) {
   return (
-      <html>
+      <html lang="en">
         <head>
           <link rel="icon" href="/T-Sender.svg" sizes="any" />
         </head>
