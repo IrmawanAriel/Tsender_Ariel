@@ -5,7 +5,7 @@ import Header from "@/components/Header"
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "TSender",
+  title: "C-Sender",
   description: "Hyper gas-optimized bulk ERC20 token transfer",
 };
 
@@ -13,7 +13,7 @@ export default function RootLayout(props: { children: ReactNode }) {
   return (
       <html lang="en">
         <head>
-          <link rel="icon" href="/T-Sender.svg" sizes="any" />
+          <link rel="icon" href="/C-Sender.png" sizes="any" />
         </head>
         <body className="bg-zinc-50">
           <Providers>
