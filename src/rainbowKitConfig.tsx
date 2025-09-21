@@ -15,7 +15,7 @@ if (!walletConnectProjectId) {
 const config = getDefaultConfig({
   appName: "TSender", // Your dApp's name, shown in wallet prompts
   projectId: walletConnectProjectId, // WalletConnect Cloud Project ID
-    chains: [mainnet, optimism, arbitrum, base, zksync, sepolia, anvil],
+    chains: [mainnet, optimism, arbitrum, base, zksync, sepolia],
   ssr: false, // Set to false for static sites or if not heavily using SSR with wagmi
 });
 
